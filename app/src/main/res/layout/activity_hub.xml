@@ -7,14 +7,6 @@
     android:orientation="vertical"
     tools:context="mam.dama.activity.HubActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/app_toolbar"
-        android:elevation="4dp"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        android:background="#349445"/>
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,6 +28,8 @@
         <TextView
             android:id="@+id/currently_plaing_meta"
             android:text="@string/textView_metadata"
+            android:textSize="22sp"
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
